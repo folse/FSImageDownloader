@@ -3,6 +3,12 @@ FSImageDownloader
 
 Download and cache image with multithreading, use AFNetworking for core downloading.
 
+Images can be displayed line by line while it is loading.
+
+This downloader is get inspired by the Apple Developer Sample Code: Lazy_Images
+
+If u have any problem, let me know.
+
 ---
 
 ## Usage
@@ -25,6 +31,6 @@ Download and cache image with multithreading, use AFNetworking for core download
     }
     
     
-For more detail, check the examples.
+For more detail, check the example code.
 
 Enjoy : )
