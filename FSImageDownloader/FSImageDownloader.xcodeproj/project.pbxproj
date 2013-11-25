@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C562C6CE2CB43C895EDACD0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C45DAB41EDF4D3C88166DFA /* libPods.a */; };
+		A173B2C018431B600056C08E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A173B2BF18431B600056C08E /* Foundation.framework */; };
+		A173B2C218431B600056C08E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A173B2C118431B600056C08E /* CoreGraphics.framework */; };
+		A173B2C418431B600056C08E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A173B2C318431B600056C08E /* UIKit.framework */; };
+		A173B2CA18431B600056C08E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A173B2C818431B600056C08E /* InfoPlist.strings */; };
+		A173B2CC18431B600056C08E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2CB18431B600056C08E /* main.m */; };
+		A173B2D018431B600056C08E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2CF18431B600056C08E /* AppDelegate.m */; };
+		A173B2D318431B600056C08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A173B2D118431B600056C08E /* Main.storyboard */; };
+		A173B2D818431B600056C08E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A173B2D718431B600056C08E /* Images.xcassets */; };
+		A173B2DF18431B610056C08E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A173B2DE18431B610056C08E /* XCTest.framework */; };
+		A173B2E018431B610056C08E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A173B2BF18431B600056C08E /* Foundation.framework */; };
+		A173B2E118431B610056C08E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A173B2C318431B600056C08E /* UIKit.framework */; };
+		A173B2E918431B610056C08E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A173B2E718431B610056C08E /* InfoPlist.strings */; };
+		A173B2EB18431B610056C08E /* FSImageDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2EA18431B610056C08E /* FSImageDownloaderTests.m */; };
+		A173B2F618431B710056C08E /* FSImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2F518431B710056C08E /* FSImageDownloader.m */; };
+		A173B2FA184322890056C08E /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2F9184322890056C08E /* DemoTableViewController.m */; };
+		A173B2FD184326890056C08E /* F.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2FC184326890056C08E /* F.m */; };
+		A173B30118432A610056C08E /* Shot.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B30018432A610056C08E /* Shot.m */; };
+		A173B305184332BE0056C08E /* ShotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B304184332BE0056C08E /* ShotCell.m */; };
+		A173B30D184375340056C08E /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A173B30C184375340056C08E /* AppIcon@2x.png */; };
+		A173B30F18437CF80056C08E /* bg_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A173B30E18437CF80056C08E /* bg_default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A173B2E218431B610056C08E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A173B2B418431B600056C08E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A173B2BB18431B600056C08E;
+			remoteInfo = FSImageDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C45DAB41EDF4D3C88166DFA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97427CDE107947BBB33A493C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A173B2BC18431B600056C08E /* FSImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A173B2BF18431B600056C08E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A173B2C118431B600056C08E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A173B2C318431B600056C08E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A173B2C718431B600056C08E /* FSImageDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FSImageDownloader-Info.plist"; sourceTree = "<group>"; };
+		A173B2C918431B600056C08E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A173B2CB18431B600056C08E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A173B2CD18431B600056C08E /* FSImageDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSImageDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		A173B2CE18431B600056C08E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A173B2CF18431B600056C08E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A173B2D218431B600056C08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A173B2D718431B600056C08E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A173B2DD18431B610056C08E /* FSImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A173B2DE18431B610056C08E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A173B2E618431B610056C08E /* FSImageDownloaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FSImageDownloaderTests-Info.plist"; sourceTree = "<group>"; };
+		A173B2E818431B610056C08E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A173B2EA18431B610056C08E /* FSImageDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSImageDownloaderTests.m; sourceTree = "<group>"; };
+		A173B2F418431B710056C08E /* FSImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImageDownloader.h; sourceTree = "<group>"; };
+		A173B2F518431B710056C08E /* FSImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImageDownloader.m; sourceTree = "<group>"; };
+		A173B2F8184322890056C08E /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		A173B2F9184322890056C08E /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		A173B2FB184326890056C08E /* F.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F.h; sourceTree = "<group>"; };
+		A173B2FC184326890056C08E /* F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F.m; sourceTree = "<group>"; };
+		A173B2FF18432A610056C08E /* Shot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shot.h; sourceTree = "<group>"; };
+		A173B30018432A610056C08E /* Shot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shot.m; sourceTree = "<group>"; };
+		A173B303184332BE0056C08E /* ShotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShotCell.h; sourceTree = "<group>"; };
+		A173B304184332BE0056C08E /* ShotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShotCell.m; sourceTree = "<group>"; };
+		A173B30C184375340056C08E /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon@2x.png"; sourceTree = "<group>"; };
+		A173B30E18437CF80056C08E /* bg_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A173B2B918431B600056C08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173B2C218431B600056C08E /* CoreGraphics.framework in Frameworks */,
+				A173B2C418431B600056C08E /* UIKit.framework in Frameworks */,
+				A173B2C018431B600056C08E /* Foundation.framework in Frameworks */,
+				9C562C6CE2CB43C895EDACD0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A173B2DA18431B610056C08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173B2DF18431B610056C08E /* XCTest.framework in Frameworks */,
+				A173B2E118431B610056C08E /* UIKit.framework in Frameworks */,
+				A173B2E018431B610056C08E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A173B2B318431B600056C08E = {
+			isa = PBXGroup;
+			children = (
+				A173B2C518431B600056C08E /* FSImageDownloader */,
+				A173B2E418431B610056C08E /* FSImageDownloaderTests */,
+				A173B2BE18431B600056C08E /* Frameworks */,
+				A173B2BD18431B600056C08E /* Products */,
+				97427CDE107947BBB33A493C /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A173B2BD18431B600056C08E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2BC18431B600056C08E /* FSImageDownloader.app */,
+				A173B2DD18431B610056C08E /* FSImageDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A173B2BE18431B600056C08E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2BF18431B600056C08E /* Foundation.framework */,
+				A173B2C118431B600056C08E /* CoreGraphics.framework */,
+				A173B2C318431B600056C08E /* UIKit.framework */,
+				A173B2DE18431B610056C08E /* XCTest.framework */,
+				2C45DAB41EDF4D3C88166DFA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A173B2C518431B600056C08E /* FSImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2CE18431B600056C08E /* AppDelegate.h */,
+				A173B2CF18431B600056C08E /* AppDelegate.m */,
+				A173B2D118431B600056C08E /* Main.storyboard */,
+				A173B30218432A640056C08E /* Model */,
+				A173B306184332C10056C08E /* View */,
+				A173B307184332CF0056C08E /* Controller */,
+				A173B2F718431B770056C08E /* FSImageDownloader */,
+				A173B2FE1843268D0056C08E /* FSKit */,
+				A173B2C618431B600056C08E /* Supporting Files */,
+				A173B2D718431B600056C08E /* Images.xcassets */,
+			);
+			path = FSImageDownloader;
+			sourceTree = "<group>";
+		};
+		A173B2C618431B600056C08E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A173B30C184375340056C08E /* AppIcon@2x.png */,
+				A173B30E18437CF80056C08E /* bg_default@2x.png */,
+				A173B2C718431B600056C08E /* FSImageDownloader-Info.plist */,
+				A173B2C818431B600056C08E /* InfoPlist.strings */,
+				A173B2CB18431B600056C08E /* main.m */,
+				A173B2CD18431B600056C08E /* FSImageDownloader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A173B2E418431B610056C08E /* FSImageDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2EA18431B610056C08E /* FSImageDownloaderTests.m */,
+				A173B2E518431B610056C08E /* Supporting Files */,
+			);
+			path = FSImageDownloaderTests;
+			sourceTree = "<group>";
+		};
+		A173B2E518431B610056C08E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2E618431B610056C08E /* FSImageDownloaderTests-Info.plist */,
+				A173B2E718431B610056C08E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A173B2F718431B770056C08E /* FSImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2F418431B710056C08E /* FSImageDownloader.h */,
+				A173B2F518431B710056C08E /* FSImageDownloader.m */,
+			);
+			name = FSImageDownloader;
+			sourceTree = "<group>";
+		};
+		A173B2FE1843268D0056C08E /* FSKit */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2FB184326890056C08E /* F.h */,
+				A173B2FC184326890056C08E /* F.m */,
+			);
+			name = FSKit;
+			sourceTree = "<group>";
+		};
+		A173B30218432A640056C08E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2FF18432A610056C08E /* Shot.h */,
+				A173B30018432A610056C08E /* Shot.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A173B306184332C10056C08E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A173B303184332BE0056C08E /* ShotCell.h */,
+				A173B304184332BE0056C08E /* ShotCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A173B307184332CF0056C08E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A173B2F8184322890056C08E /* DemoTableViewController.h */,
+				A173B2F9184322890056C08E /* DemoTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A173B2BB18431B600056C08E /* FSImageDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A173B2EE18431B610056C08E /* Build configuration list for PBXNativeTarget "FSImageDownloader" */;
+			buildPhases = (
+				5B10ABBA9D03444DB3E9A1CB /* Check Pods Manifest.lock */,
+				A173B2B818431B600056C08E /* Sources */,
+				A173B2B918431B600056C08E /* Frameworks */,
+				A173B2BA18431B600056C08E /* Resources */,
+				3D8853C90D7945CFA692E5FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSImageDownloader;
+			productName = FSImageDownloader;
+			productReference = A173B2BC18431B600056C08E /* FSImageDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A173B2DC18431B610056C08E /* FSImageDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A173B2F118431B610056C08E /* Build configuration list for PBXNativeTarget "FSImageDownloaderTests" */;
+			buildPhases = (
+				A173B2D918431B610056C08E /* Sources */,
+				A173B2DA18431B610056C08E /* Frameworks */,
+				A173B2DB18431B610056C08E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A173B2E318431B610056C08E /* PBXTargetDependency */,
+			);
+			name = FSImageDownloaderTests;
+			productName = FSImageDownloaderTests;
+			productReference = A173B2DD18431B610056C08E /* FSImageDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A173B2B418431B600056C08E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = folse;
+				TargetAttributes = {
+					A173B2DC18431B610056C08E = {
+						TestTargetID = A173B2BB18431B600056C08E;
+					};
+				};
+			};
+			buildConfigurationList = A173B2B718431B600056C08E /* Build configuration list for PBXProject "FSImageDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A173B2B318431B600056C08E;
+			productRefGroup = A173B2BD18431B600056C08E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A173B2BB18431B600056C08E /* FSImageDownloader */,
+				A173B2DC18431B610056C08E /* FSImageDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A173B2BA18431B600056C08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173B30F18437CF80056C08E /* bg_default@2x.png in Resources */,
+				A173B2D818431B600056C08E /* Images.xcassets in Resources */,
+				A173B30D184375340056C08E /* AppIcon@2x.png in Resources */,
+				A173B2CA18431B600056C08E /* InfoPlist.strings in Resources */,
+				A173B2D318431B600056C08E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A173B2DB18431B610056C08E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173B2E918431B610056C08E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D8853C90D7945CFA692E5FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B10ABBA9D03444DB3E9A1CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A173B2B818431B600056C08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173B2FD184326890056C08E /* F.m in Sources */,
+				A173B30118432A610056C08E /* Shot.m in Sources */,
+				A173B2FA184322890056C08E /* DemoTableViewController.m in Sources */,
+				A173B2F618431B710056C08E /* FSImageDownloader.m in Sources */,
+				A173B2D018431B600056C08E /* AppDelegate.m in Sources */,
+				A173B305184332BE0056C08E /* ShotCell.m in Sources */,
+				A173B2CC18431B600056C08E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A173B2D918431B610056C08E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173B2EB18431B610056C08E /* FSImageDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A173B2E318431B610056C08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A173B2BB18431B600056C08E /* FSImageDownloader */;
+			targetProxy = A173B2E218431B610056C08E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A173B2C818431B600056C08E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A173B2C918431B600056C08E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A173B2D118431B600056C08E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A173B2D218431B600056C08E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A173B2E718431B610056C08E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A173B2E818431B610056C08E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A173B2EC18431B610056C08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A173B2ED18431B610056C08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A173B2EF18431B610056C08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97427CDE107947BBB33A493C /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSImageDownloader/FSImageDownloader-Prefix.pch";
+				INFOPLIST_FILE = "FSImageDownloader/FSImageDownloader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A173B2F018431B610056C08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97427CDE107947BBB33A493C /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSImageDownloader/FSImageDownloader-Prefix.pch";
+				INFOPLIST_FILE = "FSImageDownloader/FSImageDownloader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A173B2F218431B610056C08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FSImageDownloader.app/FSImageDownloader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSImageDownloader/FSImageDownloader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FSImageDownloaderTests/FSImageDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A173B2F318431B610056C08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FSImageDownloader.app/FSImageDownloader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSImageDownloader/FSImageDownloader-Prefix.pch";
+				INFOPLIST_FILE = "FSImageDownloaderTests/FSImageDownloaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A173B2B718431B600056C08E /* Build configuration list for PBXProject "FSImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A173B2EC18431B610056C08E /* Debug */,
+				A173B2ED18431B610056C08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A173B2EE18431B610056C08E /* Build configuration list for PBXNativeTarget "FSImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A173B2EF18431B610056C08E /* Debug */,
+				A173B2F018431B610056C08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A173B2F118431B610056C08E /* Build configuration list for PBXNativeTarget "FSImageDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A173B2F218431B610056C08E /* Debug */,
+				A173B2F318431B610056C08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A173B2B418431B600056C08E /* Project object */;
+}
