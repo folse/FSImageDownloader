@@ -98,7 +98,7 @@
     
     Shot *cellShot = shotArray[row];
     
-    ShotCell *cell = (ShotCell *)[tableView dequeueReusableCellWithIdentifier:@"ShotCell" forIndexPath:indexPath];
+    ShotCell *cell = (ShotCell *)[tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     cell.titleLabel.text = cellShot.title;
     s(cellShot.url)
     NSString *imagePath = [[F alloc] getMD5FilePathWithUrl:cellShot.url];

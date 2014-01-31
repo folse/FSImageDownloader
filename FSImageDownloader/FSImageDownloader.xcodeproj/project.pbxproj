@@ -23,7 +23,6 @@
 		A173B2EB18431B610056C08E /* FSImageDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2EA18431B610056C08E /* FSImageDownloaderTests.m */; };
 		A173B2F618431B710056C08E /* FSImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2F518431B710056C08E /* FSImageDownloader.m */; };
 		A173B2FA184322890056C08E /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2F9184322890056C08E /* DemoTableViewController.m */; };
-		A173B2FD184326890056C08E /* F.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B2FC184326890056C08E /* F.m */; };
 		A173B30118432A610056C08E /* Shot.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B30018432A610056C08E /* Shot.m */; };
 		A173B305184332BE0056C08E /* ShotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A173B304184332BE0056C08E /* ShotCell.m */; };
 		A173B30D184375340056C08E /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A173B30C184375340056C08E /* AppIcon@2x.png */; };
@@ -65,7 +64,6 @@
 		A173B2F8184322890056C08E /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		A173B2F9184322890056C08E /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		A173B2FB184326890056C08E /* F.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F.h; sourceTree = "<group>"; };
-		A173B2FC184326890056C08E /* F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F.m; sourceTree = "<group>"; };
 		A173B2FF18432A610056C08E /* Shot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shot.h; sourceTree = "<group>"; };
 		A173B30018432A610056C08E /* Shot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shot.m; sourceTree = "<group>"; };
 		A173B303184332BE0056C08E /* ShotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShotCell.h; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 			isa = PBXGroup;
 			children = (
 				A173B2FB184326890056C08E /* F.h */,
-				A173B2FC184326890056C08E /* F.m */,
 			);
 			name = FSKit;
 			sourceTree = "<group>";
@@ -358,7 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A173B2FD184326890056C08E /* F.m in Sources */,
 				A173B30118432A610056C08E /* Shot.m in Sources */,
 				A173B2FA184322890056C08E /* DemoTableViewController.m in Sources */,
 				A173B2F618431B710056C08E /* FSImageDownloader.m in Sources */,

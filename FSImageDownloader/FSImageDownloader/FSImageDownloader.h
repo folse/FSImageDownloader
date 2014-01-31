@@ -1,6 +1,6 @@
 //
 //  FSImageDownloader.h
-//  MiaoMiaoGuangJie
+//  Folse
 //
 //  Created by folse on 11/23/13.
 //  Copyright (c) 2013 folse. All rights reserved.
