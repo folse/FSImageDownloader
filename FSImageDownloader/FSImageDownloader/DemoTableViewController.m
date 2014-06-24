@@ -65,8 +65,6 @@
             [self startImageDownload:shot.url forIndexPath:index];
         }
         
-
-        
         [self.tableView reloadData];
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {

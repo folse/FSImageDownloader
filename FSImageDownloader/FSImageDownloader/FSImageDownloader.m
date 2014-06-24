@@ -63,6 +63,20 @@
     
 }
 
+-(UIImage *)getImage:(NSString *)imageUrl
+{
+    NSString *imagePath = [self getMD5FilePathWithUrl:imageUrl];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    if ([fileManager fileExistsAtPath:imagePath]){
+        
+        return [UIImage imageWithContentsOfFile:imagePath];
+        
+    }else{
+        
+        return [UIImage imageNamed:@"bg_default"];
+    }
+}
+
 -(NSString *)MD5:(NSString *)text
 {
     if (text) {
