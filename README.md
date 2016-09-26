@@ -7,13 +7,13 @@ Images can be displayed line by line while it is loading.
 
 This downloader is get inspired by the Apple Developer Sample Code: Lazy_Images
 
-Dependent on CocoaPods, to install the AFNetworking. Or you can just delete the CocoaPods Shells.
+Dependent on CocoaPods to install the AFNetworking. Or you can just delete the CocoaPods Shells.
 
 If u have any problem, let me know.
 
 ---
 
-## Usage
+# Usage
 
     FSImageDownloader *imageDownloader = [self.imageDownloadsInProgress objectForKey:indexPath];
     if (imageDownloader == nil)
